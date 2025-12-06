@@ -6,8 +6,8 @@ copyright = "Copyright (c) 2025 The Architect"
 
 [tool.flet.app]
 index = "main.py"
-assets_dir = "assets"
 
 [tool.flet.android]
 # Crucial for the Entropy Engine to reach the Quantum API
+
 permissions = ["android.permission.INTERNET"]
